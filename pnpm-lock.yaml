@@ -11,10 +11,19 @@ importers:
       discord.js:
         specifier: ^14.16.3
         version: 14.16.3
+      dotenv:
+        specifier: ^16.4.7
+        version: 16.4.7
+      zod:
+        specifier: ^3.24.1
+        version: 3.24.1
     devDependencies:
       '@eslint/js':
         specifier: ^9.17.0
         version: 9.17.0
+      '@types/node':
+        specifier: ^22.10.2
+        version: 22.10.2
       eslint:
         specifier: ^9.17.0
         version: 9.17.0
@@ -423,6 +432,10 @@ packages:
     resolution: {integrity: sha512-EPCWE9OkA9DnFFNrO7Kl1WHHDYFXu3CNVFJg63bfU7hVtjZGyhShwZtSBImINQRWxWP2tgo2XI+QhdXx28r0aA==}
     engines: {node: '>=18'}
 
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
+
   esbuild@0.23.1:
     resolution: {integrity: sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==}
     engines: {node: '>=18'}
@@ -765,6 +778,9 @@ packages:
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
 snapshots:
 
@@ -1138,6 +1154,8 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
+  dotenv@16.4.7: {}
+
   esbuild@0.23.1:
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.23.1
@@ -1470,3 +1488,5 @@ snapshots:
   ws@8.18.0: {}
 
   yocto-queue@0.1.0: {}
+
+  zod@3.24.1: {}
